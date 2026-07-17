@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-label="영상 썸네일 (목업)">
+  <defs>
+    <linearGradient id="yt" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#2a2118"/><stop offset="1" stop-color="#14100b"/>
+    </linearGradient>
+    <radialGradient id="ytg" cx="0.5" cy="0.42" r="0.7">
+      <stop offset="0" stop-color="#6b5a3a" stop-opacity="0.5"/><stop offset="1" stop-color="#14100b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="1200" fill="url(#yt)"/>
+  <rect width="1200" height="1200" fill="url(#ytg)"/>
+  <!-- 강단/연단 실루엣 -->
+  <g fill="#0d0908" opacity="0.9">
+    <rect x="500" y="640" width="200" height="360" rx="8"/>
+    <ellipse cx="600" cy="520" rx="70" ry="86"/>
+    <path d="M470 700 C 490 600, 540 560, 600 560 C 660 560, 710 600, 730 700 Z"/>
+  </g>
+  <g stroke="#7a663c" stroke-width="4" fill="none" opacity="0.55">
+    <rect x="360" y="300" width="140" height="90" rx="6"/>
+    <rect x="720" y="330" width="120" height="80" rx="6"/>
+  </g>
+  <!-- 재생 버튼 -->
+  <circle cx="600" cy="500" r="96" fill="#ff0000"/>
+  <path d="M572 452 L660 500 L572 548 Z" fill="#fff"/>
+  <text x="600" y="1080" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-weight="700" font-size="58" fill="#f3e9d6">강연 · 인터뷰</text>
+  <text x="600" y="1150" text-anchor="middle" font-family="sans-serif" font-size="26" letter-spacing="6" fill="#c9b98a">YOUTUBE</text>
+</svg>

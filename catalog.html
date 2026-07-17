@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>열람실 · 정병오 인생 라이브러리</title>
+<meta name="description" content="정병오의 저서·칼럼·인터뷰·어록·활동 전체 자료를 한곳에서 — 유형·연도·검색으로 열람." />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<nav class="floatnav" aria-label="빠른 이동">
+  <div class="floatnav-inner">
+    <a class="fn-brand" href="index.html">정병오<span class="en">Paul Jung</span></a>
+    <div class="fn-links">
+      <a href="index.html">홈</a>
+      <a href="books.html">저서</a>
+      <a href="columns.html">칼럼</a>
+      <a href="interviews.html">인터뷰</a>
+      <a href="activities.html">활동</a>
+      <a href="quotes.html">어록</a>
+    </div>
+  </div>
+</nav>
+<div class="shell">
+
+  <header class="hero-g inside">
+    <img class="hero-person load d2" src="assets/person.png" alt="정병오" />
+    <div class="band-white">
+      <div class="brand load d1">
+        <span class="mark">Life Library</span>
+        <span class="name">정병오<span class="en">Paul Jung</span></span>
+      </div>
+      <nav class="g-nav load d1">
+        <a href="index.html">홈</a>
+        <a href="books.html">저서</a>
+        <a href="columns.html">칼럼</a>
+        <a href="interviews.html">인터뷰</a>
+        <a href="activities.html">활동</a>
+        <a href="quotes.html">어록</a>
+      </nav>
+    </div>
+    <div class="band-dark">
+      <div class="page-title-in load d3">
+        <span class="kicker">Reading Room</span>
+        <h1>열람실</h1>
+      </div>
+    </div>
+  </header>
+
+  <div class="divider" aria-hidden="true"></div>
+
+  <main class="panel detail">
+    <p class="cat-lede" data-reveal>정병오의 저서·칼럼·인터뷰·어록·활동을 한곳에 모았습니다. 유형과 연도로 걸러보거나 제목으로 검색하세요.</p>
+
+    <div class="cat-tools" data-reveal>
+      <div class="cat-filters" role="group" aria-label="유형 필터">
+        <button class="cat-btn active" data-type="전체">전체</button>
+        <button class="cat-btn" data-type="저서">저서</button>
+        <button class="cat-btn" data-type="칼럼">칼럼</button>
+        <button class="cat-btn" data-type="인터뷰">인터뷰</button>
+        <button class="cat-btn" data-type="어록">어록</button>
+        <button class="cat-btn" data-type="활동">활동</button>
+      </div>
+      <div class="cat-search-row">
+        <input class="cat-search" id="cat-search" type="search" placeholder="제목으로 검색…" aria-label="제목 검색" />
+        <select class="cat-select" id="cat-year" aria-label="연도 필터">
+          <option value="전체">전체 연도</option>
+        <option value="2026">2026년</option>
+        <option value="2025">2025년</option>
+        <option value="2024">2024년</option>
+        <option value="2023">2023년</option>
+        <option value="2022">2022년</option>
+        <option value="2021">2021년</option>
+        <option value="2020">2020년</option>
+        <option value="2019">2019년</option>
+        <option value="2018">2018년</option>
+        <option value="2017">2017년</option>
+        <option value="2015">2015년</option>
+        <option value="2012">2012년</option>
+        <option value="2011">2011년</option>
+        <option value="2008">2008년</option>
+        <option value="2002">2002년</option>
+        </select>
+        <span class="cat-count" id="cat-count"></span>
+      </div>
+    </div>
+
+    <div class="cat-list" id="cat-list" data-reveal>
+        <a class="cat-row" data-type="활동" data-year="2026" data-title="2026 한국교회의 사회적 신뢰도 여론조사 결과 발표회 (기윤실 공동대표 자격)" href="activities.html"><span class="cd">2026.02</span><span class="cc">활동</span><span class="ct">2026 한국교회의 사회적 신뢰도 여론조사 결과 발표회 (기윤실 공동대표 자격)</span><span class="cs">발표회</span></a>
+        <a class="cat-row" data-type="저서" data-year="2025" data-title="행복을 위한 두 번째 불편 레시피 30" href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=370852697" target="_blank" rel="noopener"><span class="cd">2025.08</span><span class="cc">저서</span><span class="ct">행복을 위한 두 번째 불편 레시피 30</span><span class="cs">기독교윤리실천운동 · 공저/편집 ↗</span></a>
+        <a class="cat-row" data-type="칼럼" data-year="2025" data-title="사람을 보지 말고 하나님만 보고 교회 다니라고요?" href="https://cemk.org/42238" target="_blank" rel="noopener"><span class="cd">2025.07</span><span class="cc">칼럼</span><span class="ct">사람을 보지 말고 하나님만 보고 교회 다니라고요?</span><span class="cs">좋은나무 ↗</span></a>
+        <a class="cat-row" data-type="어록" data-year="2025" data-title="&#x27;사람을 보지 말고 하나님만 바라보라&#x27;는 조언은 임시방편의 진통제일 뿐이다." href="quotes.html"><span class="cd">2025</span><span class="cc">어록</span><span class="ct">&#x27;사람을 보지 말고 하나님만 바라보라&#x27;는 조언은 임시방편의 진통제일 뿐이다.</span><span class="cs">좋은나무</span></a>
+        <a class="cat-row" data-type="인터뷰" data-year="2025" data-title="전한길 데리고 극우 전국일주 손현보, 결국 동료 목사들 폭발" href="https://web.archive.org/web/20250221130207/https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003105096" target="_blank" rel="noopener"><span class="cd">2025.02</span><span class="cc">인터뷰</span><span class="ct">전한길 데리고 극우 전국일주 손현보, 결국 동료 목사들 폭발</span><span class="cs">오마이뉴스 ↗</span></a>
+        <a class="cat-row" data-type="활동" data-year="2025" data-title="기윤실 회원총회에서 상임공동대표 등기이사 연임" href="activities.html"><span class="cd">2025.02</span><span class="cc">활동</span><span class="ct">기윤실 회원총회에서 상임공동대표 등기이사 연임</span><span class="cs">리더십</span></a>
+        <a class="cat-row" data-type="활동" data-year="2025" data-title="예장고신 손현보 목사 징계 촉구 기자회견 (주임의보배교회 장로 자격). &#x27;주임의보배교회를 사랑하는 사람들&#x27; 결성 참여." href="https://web.archive.org/web/20250221130207/https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003105096" target="_blank" rel="noopener"><span class="cd">2025.02</span><span class="cc">활동</span><span class="ct">예장고신 손현보 목사 징계 촉구 기자회견 (주임의보배교회 장로 자격). &#x27;주임의보배교회를 사랑하는 사람들&#x27; 결성 참여.</span><span class="cs">기자회견 ↗</span></a>
+        <a class="cat-row" data-type="인터뷰" data-year="2025" data-title="복음주의 단체들, 계엄 후에도 윤석열 옹호하는 한국교회 비판" href="https://www.newsnjoy.or.kr/news/articleView.html?idxno=306986" target="_blank" rel="noopener"><span class="cd">2025.01</span><span class="cc">인터뷰</span><span class="ct">복음주의 단체들, 계엄 후에도 윤석열 옹호하는 한국교회 비판</span><span class="cs">뉴스앤조이 · 안디도 ↗</span></a>
+        <a class="cat-row" data-type="어록" data-year="2025" data-title="한국교회가 교인들의 영적 자립을 키우지 않고 목회자를 맹종하게 하는 목회를 한 결과입니다." href="quotes.html"><span class="cd">2025</span><span class="cc">어록</span><span class="ct">한국교회가 교인들의 영적 자립을 키우지 않고 목회자를 맹종하게 하는 목회를 한 결과입니다.</span><span class="cs">뉴스앤조이</span></a>
+        <a class="cat-row" data-type="활동" data-year="2025" data-title="복음주의 단체 연대 성명 — 계엄 후 한국교회 윤석열 옹호 비판 (기윤실 참여)" href="https://www.newsnjoy.or.kr/news/articleView.html?idxno=306986" target="_blank" rel="noopener"><span class="cd">2025.01</span><span class="cc">활동</span><span class="ct">복음주의 단체 연대 성명 — 계엄 후 한국교회 윤석열 옹호 비판 (기윤실 참여)</span><span class="cs">기자회견 ↗</span></a>
+        <a class="cat-row" data-type="인터뷰" data-year="2024" data-title="10·27 집회, &#x27;다음 세대&#x27; 위해 기도한다지만…정작 &#x27;입시 경쟁&#x27; 문제는 못 건드려" href="https://www.newsnjoy.or.kr/news/articleView.html?idxno=306727" target="_blank" rel="noopener"><span class="cd">2024.10</span><span class="cc">인터뷰</span><span class="ct">10·27 집회, &#x27;다음 세대&#x27; 위해 기도한다지만…정작 &#x27;입시 경쟁&#x27; 문제는 못 건드려</span><span class="cs">뉴스앤조이 · 최승현 ↗</span></a>
+        <a class="cat-row" data-type="어록" data-year="2024" data-title="한국교회가 아이들을 염려한다면, &#x27;입시 문제&#x27;를 말해야 합니다. 이 경쟁에 찌들어서 정서적인 어려움을 겪는 아이가 너무 많아요." href="quotes.html"><span class="cd">2024</span><span class="cc">어록</span><span class="ct">한국교회가 아이들을 염려한다면, &#x27;입시 문제&#x27;를 말해야 합니다. 이 경쟁에 찌들어서 정서적인 어려움을 겪는 아이가 너무 많아요.</span><span class="cs">뉴스앤조이</span></a>
+        <a class="cat-row" data-type="활동" data-year="2024" data-title="기윤실 10·27 집회 비판 성명서 초안 작성 (반동성애 단체 반발 대응)" href="https://www.newsnjoy.or.kr/news/articleView.html?idxno=306727" target="_blank" rel="noopener"><span class="cd">2024.10</span><span class="cc">활동</span><span class="ct">기윤실 10·27 집회 비판 성명서 초안 작성 (반동성애 단체 반발 대응)</span><span class="cs">성명·논평 ↗</span></a>
+        <a class="cat-row" data-type="저서" data-year="2023" data-title="한국교회 목회자 은퇴 매뉴얼" href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=328918841" target="_blank" rel="noopener"><span class="cd">2023.11</span><span class="cc">저서</span><span class="ct">한국교회 목회자 은퇴 매뉴얼</span><span class="cs">기독교윤리실천운동 · 공저 ↗</span></a>
+        <a class="cat-row" data-type="칼럼" data-year="2023" data-title="도대체 학교에 무슨 일이 일어나고 있는가?" href="https://cemk.org/31594" target="_blank" rel="noopener"><span class="cd">2023.07</span><span class="cc">칼럼</span><span class="ct">도대체 학교에 무슨 일이 일어나고 있는가?</span><span class="cs">좋은나무 ↗</span></a>
+        <a class="cat-row" data-type="저서" data-year="2023" data-title="코로나19가 드러낸 한국교회의 민낯" href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=319326436" target="_blank" rel="noopener"><span class="cd">2023.06</span><span class="cc">저서</span><span class="ct">코로나19가 드러낸 한국교회의 민낯</span><span class="cs">기독교윤리실천운동 · 공저 ↗</span></a>
+        <a class="cat-row" data-type="저서" data-year="2023" data-title="기독교윤리실천운동 32년사: 1987-2019" href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=319545723" target="_blank" rel="noopener"><span class="cd">2023.03</span><span class="cc">저서</span><span class="ct">기독교윤리실천운동 32년사: 1987-2019</span><span class="cs">기독교윤리실천운동 · 공저 ↗</span></a>
+        <a class="cat-row" data-type="저서" data-year="2023" data-title="읽다 살다" href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=309356700" target="_blank" rel="noopener"><span class="cd">2023.02</span><span class="cc">저서</span><span class="ct">읽다 살다</span><span class="cs">잉클링즈 · 공저 ↗</span></a>
+        <a class="cat-row" data-type="인터뷰" data-year="2023" data-title="[1일1책] &#x27;읽기&#x27;에서 &#x27;살기&#x27;로 나아간 성경 탐독가들과의 다섯 빛깔 만남" href="https://www.newsnjoy.or.kr/news/articleView.html?idxno=305048" target="_blank" rel="noopener"><span class="cd">2023.02</span><span class="cc">인터뷰</span><span class="ct">[1일1책] &#x27;읽기&#x27;에서 &#x27;살기&#x27;로 나아간 성경 탐독가들과의 다섯 빛깔 만남</span><span class="cs">뉴스앤조이 · 김은석 ↗</span></a>
+        <a class="cat-row" data-type="활동" data-year="2023" data-title="좋은교사운동 신임 공동대표 한성준·현승호 취임 (4년 임기). 정병오는 사단법인 법인(등기) 대표 유지." href="activities.html"><span class="cd">2023.01</span><span class="cc">활동</span><span class="ct">좋은교사운동 신임 공동대표 한성준·현승호 취임 (4년 임기). 정병오는 사단법인 법인(등기) 대표 유지.</span><span class="cs">리더십</span></a>
+        <a class="cat-row" data-type="칼럼" data-year="2022" data-title="수능 시험을 앞둔 수험생의 기도" href="https://cemk.org/28212" target="_blank" rel="noopener"><span class="cd">2022.11</span><span class="cc">칼럼</span><span class="ct">수능 시험을 앞둔 수험생의 기도</span><span class="cs">좋은나무 ↗</span></a>
+        <a class="cat-row" data-type="칼럼" data-year="2022" data-title="고1에 1년을 쉬다니, 그게 말이 돼?" href="https://cemk.org/27159" target="_blank" rel="noopener"><span class="cd">2022.08</span><span class="cc">칼럼</span><span class="ct">고1에 1년을 쉬다니, 그게 말이 돼?</span><span class="cs">좋은나무 ↗</span></a>
+        <a class="cat-row" data-type="칼럼" data-year="2022" data-title="20대 대통령 선거를 앞두고 드리는 기도문" href="https://cemk.org/25298" target="_blank" rel="noopener"><span class="cd">2022.03</span><span class="cc">칼럼</span><span class="ct">20대 대통령 선거를 앞두고 드리는 기도문</span><span class="cs">좋은나무 ↗</span></a>
+        <a class="cat-row" data-type="어록" data-year="2022" data-title="민주주의는 인간의 죄성과 연약함을 고려할 때 하나님이 인류에게 허락하신 최선의 선물이다." href="quotes.html"><span class="cd">2022</span><span class="cc">어록</span><span class="ct">민주주의는 인간의 죄성과 연약함을 고려할 때 하나님이 인류에게 허락하신 최선의 선물이다.</span><span class="cs">좋은나무</span></a>
+        <a class="cat-row" data-type="저서" data-year="2022" data-title="전환기교육, 천 개의 해방구를 상상하며" href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=288292028" target="_blank" rel="noopener"><span class="cd">2022.02</span><span class="cc">저서</span><span class="ct">전환기교육, 천 개의 해방구를 상상하며</span><span class="cs">민들레 · 공저 ↗</span></a>
+        <a class="cat-row" data-type="칼럼" data-year="2021" data-title="물질주의의 굴레, 어떻게 할 것인가?" href="https://cemk.org/24224" target="_blank" rel="noopener"><span class="cd">2021.12</span><span class="cc">칼럼</span><span class="ct">물질주의의 굴레, 어떻게 할 것인가?</span><span class="cs">좋은나무 ↗</span></a>
+        <a class="cat-row" data-type="칼럼" data-year="2021" data-title="화해를 위한 대화법" href="https://cemk.org/22217" target="_blank" rel="noopener"><span class="cd">2021.07</span><span class="cc">칼럼</span><span class="ct">화해를 위한 대화법</span><span class="cs">좋은나무 ↗</span></a>
+        <a class="cat-row" data-type="어록" data-year="2021" data-title="결론이 어떻게 되든 상관없이 과정 속에서 문제가 해결된다." href="quotes.html"><span class="cd">2021</span><span class="cc">어록</span><span class="ct">결론이 어떻게 되든 상관없이 과정 속에서 문제가 해결된다.</span><span class="cs">좋은나무</span></a>
+        <a class="cat-row" data-type="인터뷰" data-year="2021" data-title="낡은 것이 더 이상 작동하지 않으며 새것은 제대로 작동하지 않는 시대, 회복적 생활교육을 외치다" href="https://www.newsnjoy.or.kr/news/articleView.html?idxno=302205" target="_blank" rel="noopener"><span class="cd">2021.02</span><span class="cc">인터뷰</span><span class="ct">낡은 것이 더 이상 작동하지 않으며 새것은 제대로 작동하지 않는 시대, 회복적 생활교육을 외치다</span><span class="cs">뉴스앤조이 · 구권효 ↗</span></a>
+        <a class="cat-row" data-type="저서" data-year="2020" data-title="삶의 힘을 키우는 오디세이학교" href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=263259949" target="_blank" rel="noopener"><span class="cd">2020.10</span><span class="cc">저서</span><span class="ct">삶의 힘을 키우는 오디세이학교</span><span class="cs">민들레 · 엮음 ↗</span></a>
+        <a class="cat-row" data-type="칼럼" data-year="2020" data-title="코로나19 이후의 삶, 가정을 중심으로 재편해야 한다" href="https://cemk.org/16803" target="_blank" rel="noopener"><span class="cd">2020.05</span><span class="cc">칼럼</span><span class="ct">코로나19 이후의 삶, 가정을 중심으로 재편해야 한다</span><span class="cs">좋은나무 ↗</span></a>
+        <a class="cat-row" data-type="인터뷰" data-year="2020" data-title="[북앤북스] 〈기독시민으로 산다〉 펴낸 기윤실 정병오 대표" href="https://www.kidok.com/news/articleView.html?idxno=206339" target="_blank" rel="noopener"><span class="cd">2020.04</span><span class="cc">인터뷰</span><span class="ct">[북앤북스] 〈기독시민으로 산다〉 펴낸 기윤실 정병오 대표</span><span class="cs">주간기독신문 · 노중헌 ↗</span></a>
+        <a class="cat-row" data-type="저서" data-year="2020" data-title="기독시민으로 산다" href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=236747232" target="_blank" rel="noopener"><span class="cd">2020.03</span><span class="cc">저서</span><span class="ct">기독시민으로 산다</span><span class="cs">SFC출판부 ↗</span></a>
+        <a class="cat-row" data-type="활동" data-year="2020" data-title="코로나19 시대 오디세이학교의 교육적 실천이 교육혁신에 주는 함의 — 오디세이 포럼" href="activities.html"><span class="cd">2020</span><span class="cc">활동</span><span class="ct">코로나19 시대 오디세이학교의 교육적 실천이 교육혁신에 주는 함의 — 오디세이 포럼</span><span class="cs">포럼 발표</span></a>
+        <a class="cat-row" data-type="저서" data-year="2019" data-title="다녀왔습니다, 오디세이학교" href="books.html"><span class="cd">2019.11</span><span class="cc">저서</span><span class="ct">다녀왔습니다, 오디세이학교</span><span class="cs">민들레 · 엮음</span></a>
+        <a class="cat-row" data-type="칼럼" data-year="2019" data-title="수능 시험과 대학 입시를 앞둔 학부모의 기도" href="https://cemk.org/14918" target="_blank" rel="noopener"><span class="cd">2019.11</span><span class="cc">칼럼</span><span class="ct">수능 시험과 대학 입시를 앞둔 학부모의 기도</span><span class="cs">좋은나무 ↗</span></a>
+        <a class="cat-row" data-type="칼럼" data-year="2019" data-title="삶을 변화시키는 가정 예배를 위한 5가지 습관" href="https://cemk.org/14274" target="_blank" rel="noopener"><span class="cd">2019.08</span><span class="cc">칼럼</span><span class="ct">삶을 변화시키는 가정 예배를 위한 5가지 습관</span><span class="cs">좋은나무 ↗</span></a>
+        <a class="cat-row" data-type="어록" data-year="2019" data-title="가정 예배는 자녀만을 위한 것이 아니라 부모의 신앙적 성숙을 가져오는 힘의 원천이다." href="quotes.html"><span class="cd">2019</span><span class="cc">어록</span><span class="ct">가정 예배는 자녀만을 위한 것이 아니라 부모의 신앙적 성숙을 가져오는 힘의 원천이다.</span><span class="cs">좋은나무</span></a>
+        <a class="cat-row" data-type="칼럼" data-year="2019" data-title="정병오 칼럼 (월간 좋은교사 연재)" href="columns.html"><span class="cd">2002–2019</span><span class="cc">칼럼</span><span class="ct">정병오 칼럼 (월간 좋은교사 연재)</span><span class="cs">회원용 원문</span></a>
+        <a class="cat-row" data-type="칼럼" data-year="2019" data-title="&#x27;SKY 캐슬&#x27;과 한국교육 ②" href="https://cemk.org/11355" target="_blank" rel="noopener"><span class="cd">2019.02</span><span class="cc">칼럼</span><span class="ct">&#x27;SKY 캐슬&#x27;과 한국교육 ②</span><span class="cs">좋은나무 ↗</span></a>
+        <a class="cat-row" data-type="인터뷰" data-year="2018" data-title="아이들이 가진 고민, 우리 시대 모순과 연결돼 있죠" href="https://web.archive.org/web/20180807225116/http://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002460182" target="_blank" rel="noopener"><span class="cd">2018.08</span><span class="cc">인터뷰</span><span class="ct">아이들이 가진 고민, 우리 시대 모순과 연결돼 있죠</span><span class="cs">오마이뉴스 · 윤은주 ↗</span></a>
+        <a class="cat-row" data-type="어록" data-year="2018" data-title="한 명 한 명이 다 귀하다." href="quotes.html"><span class="cd">2018</span><span class="cc">어록</span><span class="ct">한 명 한 명이 다 귀하다.</span><span class="cs">오마이뉴스</span></a>
+        <a class="cat-row" data-type="어록" data-year="2018" data-title="아이들이 가진 고민이 우리 시대 모순의 핵심과 연결된다." href="quotes.html"><span class="cd">2018</span><span class="cc">어록</span><span class="ct">아이들이 가진 고민이 우리 시대 모순의 핵심과 연결된다.</span><span class="cs">오마이뉴스</span></a>
+        <a class="cat-row" data-type="어록" data-year="2018" data-title="교사라는 것은 아이들의 고통에 응답함으로써 우리 시대의 모순에 응답하는 것이다." href="quotes.html"><span class="cd">2018</span><span class="cc">어록</span><span class="ct">교사라는 것은 아이들의 고통에 응답함으로써 우리 시대의 모순에 응답하는 것이다.</span><span class="cs">오마이뉴스</span></a>
+        <a class="cat-row" data-type="인터뷰" data-year="2018" data-title="[10년 회원을 만나다] 정병오 오디세이학교 교사(前 좋은교사운동 대표)" href="https://ccej.or.kr/posts/6MtV3o" target="_blank" rel="noopener"><span class="cd">2018.07</span><span class="cc">인터뷰</span><span class="ct">[10년 회원을 만나다] 정병오 오디세이학교 교사(前 좋은교사운동 대표)</span><span class="cs">경실련 월간경실련 ↗</span></a>
+        <a class="cat-row" data-type="활동" data-year="2017" data-title="기윤실 상임공동대표 취임" href="activities.html"><span class="cd">2017</span><span class="cc">활동</span><span class="ct">기윤실 상임공동대표 취임</span><span class="cs">리더십</span></a>
+        <a class="cat-row" data-type="활동" data-year="2017" data-title="페이스북 매일 성경 묵상글 게시 (지속 중, 성실성의 상징)" href="activities.html"><span class="cd">2017</span><span class="cc">활동</span><span class="ct">페이스북 매일 성경 묵상글 게시 (지속 중, 성실성의 상징)</span><span class="cs">SNS 콘텐츠</span></a>
+        <a class="cat-row" data-type="저서" data-year="2015" data-title="헤아려본 세월" href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=56257253" target="_blank" rel="noopener"><span class="cd">2015</span><span class="cc">저서</span><span class="ct">헤아려본 세월</span><span class="cs">포이에마 ↗</span></a>
+        <a class="cat-row" data-type="활동" data-year="2015" data-title="오디세이학교 개교 참여 · 교육기획부장 역임" href="activities.html"><span class="cd">2015</span><span class="cc">활동</span><span class="ct">오디세이학교 개교 참여 · 교육기획부장 역임</span><span class="cs">교직</span></a>
+        <a class="cat-row" data-type="저서" data-year="2012" data-title="선생님은 너를 응원해" href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=18637668" target="_blank" rel="noopener"><span class="cd">2012.07</span><span class="cc">저서</span><span class="ct">선생님은 너를 응원해</span><span class="cs">홍성사 ↗</span></a>
+        <a class="cat-row" data-type="활동" data-year="2012" data-title="좋은교사운동 실무 대표 (휴직·상근 후 학교 복직)" href="activities.html"><span class="cd">2012</span><span class="cc">활동</span><span class="ct">좋은교사운동 실무 대표 (휴직·상근 후 학교 복직)</span><span class="cs">리더십</span></a>
+        <a class="cat-row" data-type="저서" data-year="2011" data-title="하나님 앞에서 공부하는 아이" href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=13916099" target="_blank" rel="noopener"><span class="cd">2011.11</span><span class="cc">저서</span><span class="ct">하나님 앞에서 공부하는 아이</span><span class="cs">좋은씨앗 · 공저 ↗</span></a>
+        <a class="cat-row" data-type="저서" data-year="2008" data-title="시대를 뒤서 가는 사람" href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=2595726" target="_blank" rel="noopener"><span class="cd">2008.09</span><span class="cc">저서</span><span class="ct">시대를 뒤서 가는 사람</span><span class="cs">좋은교사 ↗</span></a>
+        <a class="cat-row" data-type="활동" data-year="2002" data-title="월간 『좋은교사』 「정병오 칼럼」 연재 (16년 10개월, 한 번도 거르지 않음)" href="activities.html"><span class="cd">2002.07</span><span class="cc">활동</span><span class="ct">월간 『좋은교사』 「정병오 칼럼」 연재 (16년 10개월, 한 번도 거르지 않음)</span><span class="cs">정기 연재</span></a>
+        <a class="cat-row" data-type="저서" data-year="" data-title="한국 교육의 오늘을 읽다" href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=312692088" target="_blank" rel="noopener"><span class="cd">—</span><span class="cc">저서</span><span class="ct">한국 교육의 오늘을 읽다</span><span class="cs">교육공동체벗 · 공저(18인) ↗</span></a>
+        <a class="cat-row" data-type="어록" data-year="" data-title="깨어나지 않는 아이는 없어요." href="quotes.html"><span class="cd">—</span><span class="cc">어록</span><span class="ct">깨어나지 않는 아이는 없어요.</span><span class="cs">노워리</span></a>
+    </div>
+    <p class="cat-empty" id="cat-empty" hidden>조건에 맞는 자료가 없습니다.</p>
+  </main>
+
+  <footer class="foot">
+    <div class="foot-top">
+      <div class="brand">
+        <span class="mark">Life Library</span>
+        <span class="fname">정병오 인생 라이브러리</span>
+      </div>
+      <nav class="foot-links">
+        <a href="index.html">홈</a>
+        <a href="books.html">저서</a>
+        <a href="columns.html">칼럼</a>
+        <a href="interviews.html">인터뷰</a>
+        <a href="activities.html">활동</a>
+        <a href="quotes.html">어록</a>
+      </nav>
+    </div>
+
+    <div class="foot-share" aria-label="공유">
+      <span class="lbl">Share</span>
+      <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="페이스북"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.69 4.53-4.69 1.31 0 2.68.24 2.68.24v2.97h-1.51c-1.49 0-1.96.93-1.96 1.89v2.25h3.33l-.53 3.49h-2.8V24C19.61 23.1 24 18.1 24 12.07z"/></svg></a>
+      <a href="https://twitter.com/" target="_blank" rel="noopener" aria-label="엑스(트위터)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.5 2H21l-7.2 8.2L22 22h-6.4l-5-6.6L4.8 22H1.3l7.7-8.8L2 2h6.6l4.5 6 4.4-6zm-1.1 18h1.9L7.7 3.9H5.6L16.4 20z"/></svg></a>
+      <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="인스타그램"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 8a3 3 0 1 0-2.8-4H15a3 3 0 0 0 .1 1.6L8.9 9.1a3 3 0 1 0 0 5.8l6.2 3.5a3 3 0 1 0 .9-1.7L9.8 13.2a3 3 0 0 0 0-2.4l6.2-3.5c.5.4 1.2.7 2 .7z"/></svg></a>
+    </div>
+
+    <div class="foot-bottom">
+      <span class="gift">동생이 오빠를 위해 만든 선물 · 2026</span>
+      <span>정병오 인생 라이브러리</span>
+    </div>
+  </footer>
+
+</div>
+
+<script>
+  (function () {
+    var els = document.querySelectorAll('[data-reveal]');
+    if (!('IntersectionObserver' in window) || window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      els.forEach(function (el) { el.classList.add('in'); }); return;
+    }
+    var io = new IntersectionObserver(function (es) {
+      es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+    }, { threshold: 0.08, rootMargin: '0px 0px -6% 0px' });
+    els.forEach(function (el) { io.observe(el); });
+  })();
+
+  // 열람실 필터 + 검색 (DB 없이 브라우저에서 처리)
+  (function () {
+    var rows = Array.prototype.slice.call(document.querySelectorAll('.cat-row'));
+    var typeBtns = document.querySelectorAll('.cat-btn[data-type]');
+    var yearSel = document.getElementById('cat-year');
+    var search = document.getElementById('cat-search');
+    var count = document.getElementById('cat-count');
+    var empty = document.getElementById('cat-empty');
+    var aType = '전체', aYear = '전체', aQ = '';
+    function apply() {
+      var n = 0;
+      rows.forEach(function (r) {
+        var okT = aType === '전체' || r.dataset.type === aType;
+        var okY = aYear === '전체' || r.dataset.year === aYear;
+        var okQ = !aQ || (r.dataset.title || '').toLowerCase().indexOf(aQ) > -1;
+        var show = okT && okY && okQ;
+        r.hidden = !show; if (show) n++;
+      });
+      count.textContent = n + '건';
+      empty.hidden = n > 0;
+    }
+    typeBtns.forEach(function (b) {
+      b.addEventListener('click', function () {
+        typeBtns.forEach(function (x) { x.classList.remove('active'); });
+        b.classList.add('active'); aType = b.dataset.type; apply();
+      });
+    });
+    yearSel.addEventListener('change', function () { aYear = yearSel.value; apply(); });
+    search.addEventListener('input', function () { aQ = search.value.trim().toLowerCase(); apply(); });
+    apply();
+  })();
+
+  (function () {
+    var fn = document.querySelector('.floatnav');
+    if (!fn) return;
+    function upd() { if (window.scrollY > 340) fn.classList.add('show'); else fn.classList.remove('show'); }
+    window.addEventListener('scroll', upd, { passive: true });
+    upd();
+  })();
+</script>
+</body>
+</html>

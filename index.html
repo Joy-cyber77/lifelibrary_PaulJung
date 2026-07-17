@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>정병오 인생 라이브러리 · 서고(書庫)</title>
+<meta name="description" content="교사·기독시민운동가·작가 정병오의 삶·글·활동을 담은 디지털 서고." />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<nav class="floatnav" aria-label="빠른 이동">
+  <div class="floatnav-inner">
+    <a class="fn-brand" href="index.html">정병오<span class="en">Paul Jung</span></a>
+    <div class="fn-links">
+      <a href="index.html" class="active">홈</a>
+      <a href="books.html">저서</a>
+      <a href="columns.html">칼럼</a>
+      <a href="interviews.html">인터뷰</a>
+      <a href="activities.html">활동</a>
+      <a href="quotes.html">어록</a>
+    </div>
+  </div>
+</nav>
+<div class="shell">
+
+  <!-- ============================ HERO — 가로 3구획: 흰색 / 어두운 이미지 / 인물 최상단 ============================ -->
+  <header class="hero-g">
+    <!-- 인물 (모든 요소 맨 위) -->
+    <img class="hero-person load d2" src="assets/person.png" alt="정병오" />
+
+    <!-- 1) 흰색 띠: 로고 + 네브바 + 공유 -->
+    <div class="band-white">
+      <div class="brand load d1">
+        <span class="mark">Life Library</span>
+        <span class="name">정병오<span class="en">Paul Jung</span></span>
+      </div>
+      <nav class="g-nav load d1">
+        <a href="index.html" class="active">홈</a>
+        <a href="books.html">저서</a>
+        <a href="columns.html">칼럼</a>
+        <a href="interviews.html">인터뷰</a>
+        <a href="activities.html">활동</a>
+        <a href="quotes.html">어록</a>
+      </nav>
+      <div class="g-share" aria-label="공유">
+        <span class="lbl">Share</span>
+        <a href="#" aria-label="페이스북"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.69 4.53-4.69 1.31 0 2.68.24 2.68.24v2.97h-1.51c-1.49 0-1.96.93-1.96 1.89v2.25h3.33l-.53 3.49h-2.8V24C19.61 23.1 24 18.1 24 12.07z"/></svg></a>
+        <a href="#" aria-label="엑스(트위터)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.5 2H21l-7.2 8.2L22 22h-6.4l-5-6.6L4.8 22H1.3l7.7-8.8L2 2h6.6l4.5 6 4.4-6zm-1.1 18h1.9L7.7 3.9H5.6L16.4 20z"/></svg></a>
+        <a href="#" aria-label="공유"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 8a3 3 0 1 0-2.8-4H15a3 3 0 0 0 .1 1.6L8.9 9.1a3 3 0 1 0 0 5.8l6.2 3.5a3 3 0 1 0 .9-1.7L9.8 13.2a3 3 0 0 0 0-2.4l6.2-3.5c.5.4 1.2.7 2 .7z"/></svg></a>
+      </div>
+    </div>
+
+    <!-- 2) 어두운 이미지 띠: 라벨 -->
+    <div class="band-dark">
+      <div class="releases load d3">
+        <span class="kicker">Teacher · Christian Civic Activist · Writer</span>
+        <h1>교사<span class="dot">·</span>기독시민운동가<span class="dot">·</span>작가</h1>
+      </div>
+    </div>
+  </header>
+
+  <div class="divider" aria-hidden="true"></div>
+
+  <!-- ============================ SNS 최신 피드 ============================ -->
+  <main class="panel detail">
+    <section class="sns" aria-label="SNS 최신 피드">
+      <div class="sns-head" data-reveal>
+        <div>
+          <span class="eyebrow">
+            SNS
+            <span class="live">실시간 · <span id="sns-updated">방금 업데이트</span></span>
+          </span>
+          <h2>최근 소식</h2>
+        </div>
+      </div>
+
+      <!-- 최근 소식: 3채널 (Facebook / Instagram / YouTube) — 연동 시 자동 갱신 -->
+      <div class="sns3" id="sns-grid" data-reveal>
+        <a class="sns-card" data-sns="fb" href="#" target="_blank" rel="noopener">
+          <div class="thumb">
+            <img src="assets/feed-meditation.svg" alt="페이스북 게시물" loading="lazy" />
+            <span class="pbadge fb"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.69 4.53-4.69 1.31 0 2.68.24 2.68.24v2.97h-1.51c-1.49 0-1.96.93-1.96 1.89v2.25h3.33l-.53 3.49h-2.8V24C19.61 23.1 24 18.1 24 12.07z"/></svg></span>
+          </div>
+          <div class="cbody">
+            <div class="pname">Facebook</div>
+            <div class="ctitle">매일 성경 묵상 — 오늘의 나눔</div>
+            <div class="ctime ago" data-min="90">방금 전</div>
+          </div>
+        </a>
+
+        <a class="sns-card" data-sns="ig" href="#" target="_blank" rel="noopener">
+          <div class="thumb">
+            <img src="assets/covers/읽다살다.jpg" alt="인스타그램 게시물" loading="lazy" />
+            <span class="pbadge ig"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.2c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.7 3.7 0 0 1-1.38-.9 3.7 3.7 0 0 1-.9-1.38c-.16-.42-.36-1.06-.41-2.23C2.2 15.58 2.2 15.2 2.2 12s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41C8.42 2.2 8.8 2.2 12 2.2zm0 1.8c-3.15 0-3.5.01-4.74.07-.9.04-1.38.19-1.7.32-.43.17-.74.37-1.06.69-.32.32-.52.63-.69 1.06-.13.32-.28.8-.32 1.7C3.2 8.5 3.2 8.85 3.2 12s.01 3.5.07 4.74c.04.9.19 1.38.32 1.7.17.43.37.74.69 1.06.32.32.63.52 1.06.69.32.13.8.28 1.7.32 1.24.06 1.59.07 4.74.07s3.5-.01 4.74-.07c.9-.04 1.38-.19 1.7-.32.43-.17.74-.37 1.06-.69.32-.32.52-.63.69-1.06.13-.32.28-.8.32-1.7.06-1.24.07-1.59.07-4.74s-.01-3.5-.07-4.74c-.04-.9-.19-1.38-.32-1.7a2.85 2.85 0 0 0-.69-1.06 2.85 2.85 0 0 0-1.06-.69c-.32-.13-.8-.28-1.7-.32C15.5 4.01 15.15 4 12 4zm0 3.06a4.94 4.94 0 1 1 0 9.88 4.94 4.94 0 0 1 0-9.88zm0 8.15a3.2 3.2 0 1 0 0-6.42 3.2 3.2 0 0 0 0 6.42zm6.3-8.35a1.15 1.15 0 1 1-2.3 0 1.15 1.15 0 0 1 2.3 0z"/></svg></span>
+          </div>
+          <div class="cbody">
+            <div class="pname">Instagram</div>
+            <div class="ctitle">『읽다 살다』 함께 읽기</div>
+            <div class="ctime ago" data-min="2880">2일 전</div>
+          </div>
+        </a>
+
+        <a class="sns-card" data-sns="yt" href="#" target="_blank" rel="noopener">
+          <div class="thumb">
+            <img src="assets/feed-youtube.svg" alt="유튜브 영상" loading="lazy" />
+            <span class="play" aria-hidden="true"></span>
+            <span class="pbadge yt"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg></span>
+          </div>
+          <div class="cbody">
+            <div class="pname">YouTube</div>
+            <div class="ctitle">강연 · 인터뷰 영상</div>
+            <div class="ctime ago" data-min="10080">1주 전</div>
+          </div>
+        </a>
+      </div>
+
+      <p class="sns-note">※ 미리보기입니다. 페이스북·인스타그램·유튜브 계정을 연동하면 각 채널의 최신 글·사진·영상이 자동으로 채워집니다.</p>
+    </section>
+
+    <!-- 라이브러리 미리보기 -->
+    <section class="lib-preview" aria-label="라이브러리 미리보기">
+      <div class="lib-head" data-reveal>
+        <span class="eyebrow">Library Preview</span>
+        <h2>라이브러리 미리보기</h2>
+      </div>
+      <div class="lib-list" data-reveal>
+        <a class="lib-row" href="interviews.html">
+          <span class="ld">2025.02</span>
+          <span class="lc" style="--c: var(--t-media);">인터뷰</span>
+          <span class="lt">손현보 목사 징계 촉구 기자회견</span>
+          <span class="lm">더보기 →</span>
+        </a>
+        <a class="lib-row" href="interviews.html">
+          <span class="ld">2025.01</span>
+          <span class="lc" style="--c: var(--t-media);">인터뷰</span>
+          <span class="lt">계엄 후 한국교회 옹호 비판</span>
+          <span class="lm">더보기 →</span>
+        </a>
+        <a class="lib-row" href="books.html">
+          <span class="ld">2025</span>
+          <span class="lc" style="--c: var(--t-book);">저서</span>
+          <span class="lt">행복을 위한 두 번째 불편 레시피 30</span>
+          <span class="lm">더보기 →</span>
+        </a>
+        <a class="lib-row" href="columns.html">
+          <span class="ld">2024</span>
+          <span class="lc" style="--c: var(--t-essay);">칼럼</span>
+          <span class="lt">사람을 보지 말고 하나님만 보고 교회 다니라고요?</span>
+          <span class="lm">더보기 →</span>
+        </a>
+        <a class="lib-row" href="columns.html">
+          <span class="ld">2023.07</span>
+          <span class="lc" style="--c: var(--t-essay);">칼럼</span>
+          <span class="lt">도대체 학교에 무슨 일이 일어나고 있는가?</span>
+          <span class="lm">더보기 →</span>
+        </a>
+      </div>
+      <div class="lib-more" data-reveal>
+        <a class="btn-more" href="catalog.html">열람실 · 전체 자료 보기 →</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================ FOOTER ============================ -->
+  <footer class="foot">
+    <div class="foot-top">
+      <div class="brand">
+        <span class="mark">Life Library</span>
+        <span class="fname">정병오 인생 라이브러리</span>
+      </div>
+      <nav class="foot-links">
+        <a href="books.html">저서</a>
+        <a href="columns.html">칼럼</a>
+        <a href="interviews.html">인터뷰</a>
+        <a href="activities.html">활동</a>
+        <a href="quotes.html">어록</a>
+      </nav>
+    </div>
+
+    <div class="foot-share" aria-label="공유">
+      <span class="lbl">Share</span>
+      <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="페이스북"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.69 4.53-4.69 1.31 0 2.68.24 2.68.24v2.97h-1.51c-1.49 0-1.96.93-1.96 1.89v2.25h3.33l-.53 3.49h-2.8V24C19.61 23.1 24 18.1 24 12.07z"/></svg></a>
+      <a href="https://twitter.com/" target="_blank" rel="noopener" aria-label="엑스(트위터)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.5 2H21l-7.2 8.2L22 22h-6.4l-5-6.6L4.8 22H1.3l7.7-8.8L2 2h6.6l4.5 6 4.4-6zm-1.1 18h1.9L7.7 3.9H5.6L16.4 20z"/></svg></a>
+      <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="인스타그램"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 8a3 3 0 1 0-2.8-4H15a3 3 0 0 0 .1 1.6L8.9 9.1a3 3 0 1 0 0 5.8l6.2 3.5a3 3 0 1 0 .9-1.7L9.8 13.2a3 3 0 0 0 0-2.4l6.2-3.5c.5.4 1.2.7 2 .7z"/></svg></a>
+    </div>
+
+    <div class="foot-bottom">
+      <span class="gift">동생이 오빠를 위해 만든 선물 · 2026</span>
+      <span>정병오 인생 라이브러리</span>
+    </div>
+  </footer>
+
+</div>
+
+<script>
+  // 스크롤 리빌
+  (function () {
+    var els = document.querySelectorAll('[data-reveal]');
+    if (!('IntersectionObserver' in window) || window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      els.forEach(function (el) { el.classList.add('in'); });
+    } else {
+      var io = new IntersectionObserver(function (es) {
+        es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+      }, { threshold: 0.12, rootMargin: '0px 0px -8% 0px' });
+      els.forEach(function (el) { io.observe(el); });
+    }
+  })();
+
+  /* =====================================================================
+     SNS 피드 연동 지점 (현재: 목업 / 실제 연동 시 이 함수만 교체)
+     - 페이스북/인스타그램 그래프 API로 최신 게시물을 받아
+       #sns-grid 안의 타일을 채우고, 링크(href)를 각 게시물 permalink로 설정.
+     - 실제 연동에는 오빠 계정의 페이지 액세스 토큰 + 서버(프록시)가 필요합니다.
+       (브라우저에서 토큰을 직접 노출하면 안 되므로 간단한 백엔드가 필요)
+     예) fetch('/api/facebook/latest').then(r=>r.json()).then(renderPosts);
+     ===================================================================== */
+  function renderPosts(posts) {
+    // posts: [{ image, caption, permalink, minutesAgo }]
+    // 실제 연동 시 여기서 #sns-grid 를 다시 그림.
+  }
+
+  // 상대 시간 표기 (목업)
+  (function () {
+    function label(min) {
+      if (min < 60) return '방금 전';
+      if (min < 1440) return Math.floor(min / 60) + '시간 전';
+      return Math.floor(min / 1440) + '일 전';
+    }
+    document.querySelectorAll('.ago').forEach(function (el) {
+      el.textContent = label(parseInt(el.dataset.min, 10) || 0);
+    });
+    var u = document.getElementById('sns-updated');
+    if (u) u.textContent = '방금 업데이트';
+  })();
+
+  // ▼ 실제 계정 주소로 바꾸세요 (여기 한 곳만 고치면 전체 링크가 바뀝니다)
+  // ▼ 실제 계정 주소로 바꾸세요 (여기 세 곳만 고치면 카드/공유 링크가 전부 바뀝니다)
+  var SNS = {
+    fb: 'https://www.facebook.com/',
+    ig: 'https://www.instagram.com/',
+    yt: 'https://www.youtube.com/'
+  };
+  (function () {
+    document.querySelectorAll('[data-sns]').forEach(function (a) {
+      var u = SNS[a.dataset.sns]; if (u) a.href = u;
+    });
+    document.querySelectorAll('.g-share a').forEach(function (a) { a.href = SNS.fb; a.target = '_blank'; a.rel = 'noopener'; });
+  })();
+</script>
+<script>
+  (function () {
+    var fn = document.querySelector('.floatnav');
+    if (!fn) return;
+    function upd() { if (window.scrollY > 340) fn.classList.add('show'); else fn.classList.remove('show'); }
+    window.addEventListener('scroll', upd, { passive: true });
+    upd();
+  })();
+</script>
+</body>
+</html>
